@@ -8,18 +8,18 @@ html, body, #cesiumContainer {
     position: absolute;
     z-index: 1000;
     left: 10px;
-    bottom: 10px;
-    color: #a0a0a0;
-    font-family: 'Open Sans', sans-serif;
+    bottom: 650px;
+    color: #000000;
+    font-family: "Bookman Old Style", sans-serif;
     padding: 6px 8px;
     background: #000000;
-    background: rgba(38, 38, 38, 0.5);
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    background: rgba(209, 209, 209, 0);
+    box-shadow: 0 0 15px rgba(0,0,0,0.99);
     border-radius: 5px;
 }
 
 h4 {
-    font-family:  Lobster, cursive;
+    font-family:  "Bookman Old Style", sans-serif;
     font-size: larger;
 }
 
@@ -38,7 +38,7 @@ h4 {
 }
 
 
-a:visited {color:#a0a0a0; background-color:transparent; text-decoration:none}
-a:hover   {color:#a0a0a0; background-color:transparent; text-decoration:none}
-a:active {color:#a0a0a0; background-color:transparent; text-decoration:none}
-a:link   {color:#a0a0a0; background-color:transparent; text-decoration:none}
+a:visited {color:blue; background-color:transparent; text-decoration:none}
+a:hover   {color:green; background-color:transparent; text-decoration:none}
+a:active {color: #9e00a0; background-color:transparent; text-decoration:none}
+a:link   {color:red; background-color:transparent; text-decoration:none}
