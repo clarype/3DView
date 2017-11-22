@@ -4,11 +4,11 @@ html, body, #cesiumContainer {
 
 .legend {
     line-height: 16px;
-    width: 280px;
-    position: absolute;
+    width: 260px;
+    position: fixed;
     z-index: 1000;
     left: 10px;
-    bottom: 650px;
+    top: 10px;
     color: #000000;
     font-family: "Bookman Old Style", sans-serif;
     padding: 6px 8px;
