@@ -37,13 +37,9 @@
         homeButton: false,
         animation: false,
         timeline: false,
-        imageryProvider :new Cesium.UrlTemplateImageryProvider({
-    url : 'https://cesiumjs.org/tilesets/imagery/naturalearthii/{z}/{x}/{reverseY}.jpg',
-    credit : '© Analytical Graphics, Inc.',
-    tilingScheme : new Cesium.GeographicTilingScheme(),
-    maximumLevel : 5
+        imageryProvider :Cesium.createOpenStreetMapImageryProvider({
+    url : 'https://a.tile.openstreetmap.org/'
 });
-
 
 
     var dataSource = Cesium.GeoJsonDataSource.load('Assets/nyc_noise.geojson').then(
