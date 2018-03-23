@@ -27,18 +27,8 @@
     //create a cesium view, and use the mapbox dark map as the base map.
     var viewer = new Cesium.Viewer('cesiumContainer', {
         
-        imageryProvider :new Cesium.ArcGisMapServerImageryProvider({
-        url : 'https://services.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer',
-        vrButton: false,  // virtual reality support
-        infoBox: false, // pick a feature and show its attributes
-        sceneModePicker: false, // 2d, 2.5d and 3d
-        navigationHelpButton: false,
-        baseLayerPicker : false,
-        fullscreenButton: false,
-        geocoder: false,
-        homeButton: false,
-        animation: false,
-        timeline: false,
+        imageryProvider : Cesium.createOpenStreetMapImageryProvider({
+        url:'https://a.tile.openstreetmap.org'
         
     });
 
