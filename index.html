@@ -39,7 +39,7 @@
         timeline: false,
         imageryProvider :new Cesium.ArcGisMapServerImageryProvider({
         url : 'https://services.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer'
-    });
+    }),
 
 
     var dataSource = Cesium.GeoJsonDataSource.load('Assets/nyc_noise.geojson').then(
