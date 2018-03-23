@@ -37,14 +37,12 @@
         homeButton: false,
         animation: false,
         timeline: false,
-        imageryProvider : new Cesium.MapboxImageryProvider({
-            mapId : 'mapbox.light',
-            accessToken : 'pk.eyJ1IjoiY2xhcnlwZSIsImEiOiJjaXpoODk3NzUwMTU3MzNtZWJlNWUzcXQ4In0.jjpzASpHGUkCJTsG6kZLIg'
-        }),
-        terrainProvider: new Cesium.CesiumTerrainProvider({
-            url: '//assets.agi.com/stk-terrain/world'
-        })
-    });
+        imageryProvider :new Cesium.UrlTemplateImageryProvider({
+    url : 'https://cesiumjs.org/tilesets/imagery/naturalearthii/{z}/{x}/{reverseY}.jpg',
+    credit : '© Analytical Graphics, Inc.',
+    tilingScheme : new Cesium.GeographicTilingScheme(),
+    maximumLevel : 5
+});
 
 
 
