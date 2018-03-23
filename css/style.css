@@ -12,7 +12,7 @@ html, body, #cesiumContainer {
     color: #000000;
     font-family: "Bookman Old Style", sans-serif;
     padding: 6px 8px;
-    background: #000000;
+    background: #0e9c8a;
     background: rgba(209, 209, 209, 0);
     box-shadow: 0 0 15px rgba(0,0,0,0.99);
     border-radius: 5px;
