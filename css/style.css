@@ -9,7 +9,7 @@ html, body, #cesiumContainer {
     z-index: 1000;
     left: 10px;
     top: 10px;
-    color: #065a77;
+    color: #ffffff;
     font-family: "Bookman Old Style", sans-serif;
     padding: 6px 8px;
     background: #0e9c8a;
@@ -38,7 +38,7 @@ h4 {
 }
 
 
-a:visited {color:blue; background-color:transparent; text-decoration:none}
+a:visited {color:green; background-color:transparent; text-decoration:none}
 a:hover   {color:green; background-color:transparent; text-decoration:none}
 a:active {color: #9e00a0; background-color:transparent; text-decoration:none}
 a:link   {color:red; background-color:transparent; text-decoration:none}
